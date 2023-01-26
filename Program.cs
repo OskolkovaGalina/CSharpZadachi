@@ -6,17 +6,15 @@
 
 // Console.WriteLine("Введите первое число: ");
 // int firstNumber = Convert.ToInt32(Console.ReadLine());
-
 //Console.WriteLine("Введите второе число: ");
 //int secondNumber = Convert.ToInt32(Console.ReadLine());
-
 //if (firstNumber > secondNumber)
 //{
-    //Console.WriteLine( firstNumber+ " > " + secondNumber);
+//Console.WriteLine( firstNumber+ " > " + secondNumber);
 //}
 //else if (secondNumber > firstNumber)
 //{
-    //Console.WriteLine( secondNumber+ " > " + firstNumber);
+//Console.WriteLine( secondNumber+ " > " + firstNumber);
 //}
 //else
 //{
@@ -30,32 +28,28 @@
 
 //Console.WriteLine("Введите первое число: ");
 //int firstNumber = Convert.ToInt32(Console.ReadLine());
-
 //Console.WriteLine("Введите второе число: ");
 //int secondNumber = Convert.ToInt32(Console.ReadLine());
-
 //Console.WriteLine("Введите третье число: ");
 //int thirdNumber = Convert.ToInt32(Console.ReadLine());
-
 //if (firstNumber > secondNumber)
 //{
-    //if (firstNumber > thirdNumber)
-    //{
-        //Console.WriteLine("Максимальное число: " + firstNumber);
-    //}
-    //else
-   // {
-        //Console.WriteLine("Максимальное число: " + thirdNumber);
-    //}
+//if (firstNumber > thirdNumber)
+//{
+//Console.WriteLine("Максимальное число: " + firstNumber);
 //}
-
+//else
+// {
+//Console.WriteLine("Максимальное число: " + thirdNumber);
+//}
+//}
 //else if (secondNumber > thirdNumber)
 //{
-    //Console.WriteLine("Максимальное число: " + secondNumber);
+//Console.WriteLine("Максимальное число: " + secondNumber);
 //}
 //else
 //{
-    //Console.WriteLine("Максимальное число: " + thirdNumber);
+//Console.WriteLine("Максимальное число: " + thirdNumber);
 //}
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
@@ -65,30 +59,26 @@
 
 //Console.WriteLine("Введите число: ");
 //int number = Convert.ToInt32(Console.ReadLine());
-
 //if (number % 2 == 0)
-    //{
-        //Console.WriteLine(number + " - Четное число: ");
-    //}
-    //else
-    //{
-        //Console.WriteLine(number + " - Нечетное число");
-    //}
+//{
+//Console.WriteLine(number + " - Четное число: ");
+//}
+//else
+//{
+//Console.WriteLine(number + " - Нечетное число");
+//}
 
-    
-    // Задача 8: Напишите программу, которая на вход принимает число (N), 
-    //а на выходе показывает все чётные числа от 1 до N
+// Задача 8: Напишите программу, которая на вход принимает число (N), 
+//а на выходе показывает все чётные числа от 1 до N
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int startNumber = 1;
-
-
 while(startNumber <= number)
-    {
-        if(startNumber % 2 ==0)
-        Console.Write(startNumber + ", ");
-        startNumber ++;
-    }
+{
+if(startNumber % 2 ==0)
+Console.Write(startNumber + ", ");
+startNumber ++;
+}
